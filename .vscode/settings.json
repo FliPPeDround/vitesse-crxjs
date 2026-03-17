@@ -35,7 +35,9 @@
     "postcss"
   ],
   "cSpell.words": [
+    "crxjs",
+    "vite",
     "Vitesse",
-    "crxjs"
+    "vitest"
   ]
 }
