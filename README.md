@@ -2,8 +2,6 @@
 
 A [Vite](https://vitejs.dev/) and [CRXJS](https://crxjs.dev/) powered WebExtension ([Chrome](https://developer.chrome.com/docs/extensions/reference/), [FireFox](https://addons.mozilla.org/en-US/developers/), etc.) starter template.
 
-[中文文档](./README_CN.md)
-
 ## Features
 
 - ⚡️ **Instant HMR** - use **Vite** and **CRXJS** on dev (no more refresh!)
