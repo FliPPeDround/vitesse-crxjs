@@ -24,6 +24,7 @@ export default defineConfig({
         test: {
           name: 'WebExtension E2E',
           include: ['e2e/**/*.test.ts'],
+          // https://crxjs.dev/guide/test/installation
           environment: 'web-ext',
           environmentOptions: {
             'web-ext': {
