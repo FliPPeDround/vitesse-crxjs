@@ -9,7 +9,7 @@ import zip from 'vite-plugin-zip-pack'
 import manifest from './manifest.config.ts'
 import { name, version } from './package.json'
 
-export const r = (...args: string[]) => resolve(__dirname, ...args)
+const r = (...args: string[]) => resolve(__dirname, ...args)
 export default defineConfig({
   resolve: {
     alias: {

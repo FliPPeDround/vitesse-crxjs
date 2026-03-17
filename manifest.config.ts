@@ -10,10 +10,6 @@ export default defineManifest({
     default_icon: 'src/assets/icon-512.png',
     default_popup: 'src/popup/index.html',
   },
-  options_ui: {
-    page: 'src/options/index.html',
-    open_in_tab: true,
-  },
   background: {
     service_worker: 'src/background/main.ts',
   },
@@ -21,6 +17,13 @@ export default defineManifest({
     js: ['src/content/main.ts'],
     matches: ['<all_urls>'],
   }],
+  options_ui: {
+    page: 'src/options/index.html',
+    open_in_tab: true,
+  },
+  side_panel: {
+    default_path: 'src/sidepanel/index.html',
+  },
   host_permissions: ['*://*/*'],
   permissions: [
     'tabs',
@@ -28,9 +31,6 @@ export default defineManifest({
     'activeTab',
     'sidePanel',
   ],
-  side_panel: {
-    default_path: 'src/sidepanel/index.html',
-  },
   icons: {
     16: 'src/assets/icon-512.png',
     48: 'src/assets/icon-512.png',
