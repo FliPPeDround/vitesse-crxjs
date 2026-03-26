@@ -1,3 +1,4 @@
+import presetRemToPx from '@unocss/preset-rem-to-px'
 import {
   defineConfig,
   presetAttributify,
@@ -11,6 +12,7 @@ export default defineConfig({
     ['icon-btn', 'text-[0.9em] inline-block cursor-pointer select-none opacity-75 transition duration-200 ease-in-out hover:opacity-100 hover:text-teal-600'],
   ],
   presets: [
+    presetRemToPx(),
     /**
      * Use vue-scoped mode for style isolation in content scripts.
      * See: file://./vite.config.ts#L40
